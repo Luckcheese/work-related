@@ -16,7 +16,7 @@ def brand_definitions():
     {'brand': 'diners club',    'len': irange(16, 19),  'prefix': irange_s(300, 305) + ['3095'] + irange_s(38, 39)},
     {'brand': 'discover card',  'len': irange(16, 19),  'prefix': ['6011', '64', '65']},
     {'brand': 'maestro',        'len': irange(12, 19),  'prefix': ['50'] + irange_s(56, 58) + ['6']},
-    {'brand': 'mastercard',     'len': [16],            'prefix': irange_s(22210, 22720)},
+    {'brand': 'mastercard',     'len': [16],            'prefix': irange_s(222100, 272099)},
   ]
 
 
